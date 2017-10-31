@@ -4,9 +4,20 @@
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_JWyyIL5JEeeEQ5amaEtfYw" name="monica"
     displayName="test_display_name">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_PAfToL5LEeeEQ5amaEtfYw"
+      name="Variable" visibility="800">
+    <domain uuid="_PAfTob5LEeeEQ5amaEtfYw" name="local"
+        visibility="300">
+      <typeSet uuid="_PAfTor5LEeeEQ5amaEtfYw" bitSet="393231"/>
+    </domain>
+  </variables>
   <template href="_H8msEL5JEeeEQ5amaEtfYw.xml#_H8msEL5JEeeEQ5amaEtfYw"/>
   <geometry deletable="false" uuid="_JWyyIb5JEeeEQ5amaEtfYw"
       name="root">
+    <units uuid="_MGoKkL5LEeeEQ5amaEtfYw" name="Geo_Unit">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_OKXj8L5LEeeEQ5amaEtfYw"/>
+    </units>
     <parentPlugs uuid="_JWyyIr5JEeeEQ5amaEtfYw" name="ParentPlug"/>
   </geometry>
   <roles uuid="_IKx1gL5KEeeEQ5amaEtfYw" name="Role">
