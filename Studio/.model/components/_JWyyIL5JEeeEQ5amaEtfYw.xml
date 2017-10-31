@@ -14,7 +14,8 @@
   <template href="_H8msEL5JEeeEQ5amaEtfYw.xml#_H8msEL5JEeeEQ5amaEtfYw"/>
   <geometry deletable="false" uuid="_JWyyIb5JEeeEQ5amaEtfYw"
       name="root">
-    <units uuid="_MGoKkL5LEeeEQ5amaEtfYw" name="Geo_Unit">
+    <units uuid="_MGoKkL5LEeeEQ5amaEtfYw" name="Geo_Unit"
+        rotation="100.0">
       <facets xsi:type="comp:GeoUnitLineJointFacet"
           uuid="_OKXj8L5LEeeEQ5amaEtfYw"/>
     </units>
