@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
-    uuid="_JWyyIL5JEeeEQ5amaEtfYw" name="C">
+    uuid="_JWyyIL5JEeeEQ5amaEtfYw" name="C"
+    displayName="test_display_name">
   <template href="_H8msEL5JEeeEQ5amaEtfYw.xml#_H8msEL5JEeeEQ5amaEtfYw"/>
   <geometry deletable="false" uuid="_JWyyIb5JEeeEQ5amaEtfYw"
       name="root">
     <parentPlugs uuid="_JWyyIr5JEeeEQ5amaEtfYw" name="ParentPlug"/>
   </geometry>
+  <roles uuid="_IKx1gL5KEeeEQ5amaEtfYw" name="Role">
+    <facets xsi:type="comp:PlugFacet" uuid="_IKyckL5KEeeEQ5amaEtfYw"/>
+    <domain uuid="_IKx1gb5KEeeEQ5amaEtfYw" name="local"
+        visibility="300">
+      <typeSet uuid="_IKx1gr5KEeeEQ5amaEtfYw" bitSet="65536"/>
+      <values uuid="_IKx1g75KEeeEQ5amaEtfYw" name="NONE"
+          editable="false" visibility="300"/>
+    </domain>
+  </roles>
 </comp:Component>
