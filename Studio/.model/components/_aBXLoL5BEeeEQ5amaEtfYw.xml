@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_aBXLoL5BEeeEQ5amaEtfYw" name="C1">
   <geometry deletable="false" uuid="_aBXLob5BEeeEQ5amaEtfYw"
       name="root">
     <parentPlugs uuid="_aBXLor5BEeeEQ5amaEtfYw" name="ParentPlug"/>
   </geometry>
+  <roles uuid="_gGgk8L5BEeeEQ5amaEtfYw" name="Role">
+    <facets xsi:type="comp:PlugFacet" uuid="_gGgk-r5BEeeEQ5amaEtfYw"/>
+    <domain uuid="_gGgk8b5BEeeEQ5amaEtfYw" name="local"
+        visibility="300">
+      <typeSet uuid="_gGgk8r5BEeeEQ5amaEtfYw" bitSet="65536"/>
+      <values uuid="_gGgk875BEeeEQ5amaEtfYw" name="NONE"
+          editable="false" visibility="300"/>
+    </domain>
+  </roles>
 </comp:Component>
