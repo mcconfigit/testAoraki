@@ -10,6 +10,7 @@
         visibility="300">
       <typeSet uuid="_PAfTor5LEeeEQ5amaEtfYw" bitSet="393231"/>
     </domain>
+    <domainGlobal href="../product_model.xml#_P6EnAL5LEeeEQ5amaEtfYw"/>
   </variables>
   <template href="_H8msEL5JEeeEQ5amaEtfYw.xml#_H8msEL5JEeeEQ5amaEtfYw"/>
   <geometry deletable="false" uuid="_JWyyIb5JEeeEQ5amaEtfYw"

@@ -30,6 +30,7 @@
   </domains>
   <domains uuid="_P6EnAL5LEeeEQ5amaEtfYw" name="GD1">
     <typeSet uuid="_P6EnAr5LEeeEQ5amaEtfYw" bitSet="458767"/>
+    <variables xsi:type="comp:DeclaredVariable" href="components/_JWyyIL5JEeeEQ5amaEtfYw.xml#_PAfToL5LEeeEQ5amaEtfYw"/>
   </domains>
   <domains uuid="_Q1XKkL5LEeeEQ5amaEtfYw" name="GD2">
     <typeSet uuid="_Q1XKkr5LEeeEQ5amaEtfYw" bitSet="458767"/>
