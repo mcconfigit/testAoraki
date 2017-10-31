@@ -2,7 +2,7 @@
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
-    uuid="_JWyyIL5JEeeEQ5amaEtfYw" name="monica"
+    uuid="_JWyyIL5JEeeEQ5amaEtfYw" name="monica1"
     displayName="test_display_name">
   <variables xsi:type="comp:DeclaredVariable" uuid="_PAfToL5LEeeEQ5amaEtfYw"
       name="Variable" visibility="800">
