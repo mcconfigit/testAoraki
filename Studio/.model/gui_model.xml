@@ -55,9 +55,10 @@
     </panelStyles>
     <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_Bj_OoGq0EeSf2roTWK8_Lg"
         name="DefaultFlowPanelStyleSettings" bgColor="255,255,255"
-        bottomMargin="15" columnSpacing="30" leftMargin="20"
-        rowSpace="8" topMargin="20">
+        columnSpacing="30" rowSpace="8">
       <bgImage href="../model.build#_skYBIGqzEeSf2roTWK8_Lg"/>
+      <margins uuid="_q8kQINOYEee3G7JxPZMeKA" top="20"
+          bottom="15" left="20"/>
     </panelStyles>
     <panelStyles uuid="_6uuVEGq1EeSU5fRCDlCvNA" name="DefaultXYPanelStyleToolBar"
         bgColor="255,255,255">
@@ -65,9 +66,10 @@
     </panelStyles>
     <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_-kp9EFc_EeWo-40Qyxiobw"
         name="DefaultFlowPanelStyleBottom" bgColor="245,245,245"
-        bottomMargin="20" columnSpacing="30" leftMargin="20"
-        rowSpace="5" topMargin="30">
+        columnSpacing="30" rowSpace="5">
       <bgImage href="../model.build#_8uEBgGqzEeSf2roTWK8_Lg"/>
+      <margins uuid="_q8kQJdOYEee3G7JxPZMeKA" top="30"
+          bottom="20" left="20"/>
     </panelStyles>
     <tabStyles uuid="_wHX3UGpyEeSfCJnJCtaXOA" name="DefaultTabStyle"
         nonSelectedFont="_lKkykGpyEeSfCJnJCtaXOA" selectedFont="_lKkykGpyEeSfCJnJCtaXOA"
@@ -94,7 +96,9 @@
   </style>
   <guiUnits xsi:type="gui:GUIUnit" uuid="_2sAOkbcHEeKEW-Ajb6cWbQ"
       name="TopBar" style="_y1CuFP7MEd-ok_zz1c7U2w"
-      height="50" width="1132" unitType="SINGLEPANEL">
+      unitType="SINGLEPANEL">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_q8nTcdOYEee3G7JxPZMeKA"
+        height="50" width="1132"/>
     <panels uuid="_GDl04KTqEea8d6P1JTl01w">
       <panels uuid="_-yLEcbcHEeKEW-Ajb6cWbQ" name="top_bar"
           isInit="true" panelType="XYPANEL" style="_gg6S8bbnEeK305n3PlGMhg">
@@ -105,11 +109,14 @@
     </panels>
   </guiUnits>
   <guiUnits xsi:type="gui:ViewerGUIUnit" uuid="_mc-ZMbcdEeKEW-Ajb6cWbQ"
-      name="Viewer" style="_y1CuFP7MEd-ok_zz1c7U2w"
-      height="630" width="912" yPosition="96"/>
+      name="Viewer" style="_y1CuFP7MEd-ok_zz1c7U2w">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_q8pvstOYEee3G7JxPZMeKA"
+        height="630" width="912" yPosition="96"/>
+  </guiUnits>
   <guiUnits xsi:type="gui:GUIUnit" uuid="_HuNhEa-7EeOhZfF6nj1a5w"
-      name="Settings" height="70" width="1132" yPosition="746"
-      unitType="SINGLEPANEL">
+      name="Settings" unitType="SINGLEPANEL">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_q8pvtNOYEee3G7JxPZMeKA"
+        height="70" width="1132" yPosition="746"/>
     <panels uuid="_GDoRIaTqEea8d6P1JTl01w">
       <panels uuid="_NI2k0a-7EeOhZfF6nj1a5w" name="init"
           isInit="true" panelType="XYPANEL" style="_eKQvMbboEeK305n3PlGMhg"
@@ -128,8 +135,9 @@
     </panels>
   </guiUnits>
   <guiUnits xsi:type="gui:GUIUnit" uuid="_RzV8sGq1EeSU5fRCDlCvNA"
-      name="Inserter" height="670" width="220" xPosition="912"
-      yPosition="76">
+      name="Inserter">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_q8q90tOYEee3G7JxPZMeKA"
+        height="670" width="220" xPosition="912" yPosition="76"/>
     <panels uuid="_GDo4M6TqEea8d6P1JTl01w">
       <panels uuid="_dG0cEGq1EeSU5fRCDlCvNA" name="PanelInsert"
           isInit="true" style="_Bj_OoGq0EeSf2roTWK8_Lg"
@@ -171,8 +179,9 @@
     </tabs>
   </guiUnits>
   <guiUnits xsi:type="gui:GUIUnit" uuid="_tHd1MGq1EeSU5fRCDlCvNA"
-      name="ToolBar" height="26" width="1132" yPosition="50"
-      unitType="SINGLEPANEL">
+      name="ToolBar" unitType="SINGLEPANEL">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_q8uoMtOYEee3G7JxPZMeKA"
+        height="26" width="1132" yPosition="50"/>
     <panels uuid="_GDuXwqTqEea8d6P1JTl01w">
       <panels uuid="_webxAGq1EeSU5fRCDlCvNA" name="ToolBarButtons"
           isInit="true" panelType="XYPANEL" style="_6uuVEGq1EeSU5fRCDlCvNA">
