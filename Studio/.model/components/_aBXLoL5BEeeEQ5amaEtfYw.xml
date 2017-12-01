@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_aBXLoL5BEeeEQ5amaEtfYw" name="C1">
   <geometry deletable="false" uuid="_aBXLob5BEeeEQ5amaEtfYw"
@@ -16,4 +17,379 @@
           editable="false" visibility="300"/>
     </domain>
   </roles>
+  <rulesVT uuid="__9wAMNXjEeeDQOkVKOMuLA" name="VT_Rule"
+      checksum="3a993008632e78fd892d70a0fbbf5734f442139a"
+      modelType="VT_Model" language="French">
+    <fileVT href="../../model.build#_D_APINXkEeeDQOkVKOMuLA"/>
+    <properties>VT type</properties>
+    <properties>Build type</properties>
+    <properties>Domain</properties>
+    <functionProperties>VT type</functionProperties>
+    <functionProperties>Build type</functionProperties>
+    <functionProperties>Referenced Variables</functionProperties>
+    <currentVariables uuid="_Eupjh9XkEeeDQOkVKOMuLA"
+        name="Custom.Cookie" inUse="TRUE" alias="Custom.Cookie">
+      <domain uuid="_EupjiNXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjitXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupji9XkEeeDQOkVKOMuLA"
+            name="Almond" editable="false" displayName="Biscuit Amande">
+          <displayNames key="Danish" value="Mandelkiks"/>
+          <displayNames key="French" value="Biscuit Amande"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjjNXkEeeDQOkVKOMuLA"
+            name="Oatmeal" editable="false" displayName="Biscuit Ã  l'avoine">
+          <displayNames key="Danish" value="Havregrynskiks"/>
+          <displayNames key="French" value="Biscuit Ã  l'avoine"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjjdXkEeeDQOkVKOMuLA"
+            name="Chocolate Chip" editable="false" displayName="Biscuit aux pÃ©pites de chocolat">
+          <displayNames key="Danish" value="Chokoladekiks"/>
+          <displayNames key="French" value="Biscuit aux pÃ©pites de chocolat"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[Almond, Oatmeal, Chocolate Chip]"/>
+    </currentVariables>
+    <currentVariables uuid="_Euo8dtXkEeeDQOkVKOMuLA"
+        name="Custom.Tea" inUse="TRUE" alias="Custom.Tea">
+      <domain uuid="_Euo8d9XkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Euo8edXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8etXkEeeDQOkVKOMuLA"
+            name="Earl Grey" editable="false" displayName="Earl Grey thÃ©">
+          <displayNames key="Danish" value="Earl Grey thÃ©"/>
+          <displayNames key="French" value="Earl Grey thÃ©"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8e9XkEeeDQOkVKOMuLA"
+            name="Jasmine" editable="false" displayName="ThÃ© aux Jasmine">
+          <displayNames key="Danish" value="Jasmin-thÃ©"/>
+          <displayNames key="French" value="ThÃ© aux Jasmine"/>
+        </values>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjYNXkEeeDQOkVKOMuLA"
+            name="Indian Spice Chai" editable="false"
+            displayName="Indien piment thÃ©">
+          <displayNames key="Danish" value="Indisk krydder thÃ©"/>
+          <displayNames key="French" value="Indien piment thÃ©"/>
+        </values>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[Earl Grey, Jasmine, Indian Spice Chai]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjudXkEeeDQOkVKOMuLA"
+        name="Floats.Equals.Float1" inUse="TRUE" alias="Floats.Equals.Float1">
+      <domain uuid="_EupjutXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjvNXkEeeDQOkVKOMuLA" bitSet="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjvdXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="any floating point value"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Eupj3NXkEeeDQOkVKOMuLA"
+        name="Floats.Equals.Float2" inUse="TRUE" alias="Floats.Equals.Float2">
+      <domain uuid="_Eupj3dXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupj39XkEeeDQOkVKOMuLA" bitSet="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupj4NXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="any floating point value"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjgNXkEeeDQOkVKOMuLA"
+        name="Floats.Narrow.Float1" inUse="TRUE" alias="Floats.Narrow.Float1">
+      <domain uuid="_EupjgdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupjg9XkEeeDQOkVKOMuLA" bitSet="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjhNXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="]-Infinity;5["/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Euo8bdXkEeeDQOkVKOMuLA"
+        name="Floats.Narrow.Float2" inUse="TRUE" alias="Floats.Narrow.Float2">
+      <domain uuid="_Euo8btXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Euo8cNXkEeeDQOkVKOMuLA" bitSet="8"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8cdXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="]-Infinity;11.5["/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Euo8UNXkEeeDQOkVKOMuLA"
+        name="Integers.Equals.Int1" inUse="TRUE" alias="Integers.Equals.Int1">
+      <domain uuid="_Euo8UdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Euo8U9XkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8VNXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="any integer value"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EulR8NXkEeeDQOkVKOMuLA"
+        name="Integers.Equals.Int2" inUse="TRUE" alias="Integers.Equals.Int2">
+      <domain uuid="_EulR8dXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EulR89XkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EumgENXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="any integer value"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Euo8VdXkEeeDQOkVKOMuLA"
+        name="Integers.Narrow.Int1" inUse="TRUE" alias="Integers.Narrow.Int1">
+      <domain uuid="_Euo8VtXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Euo8WNXkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8WdXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="]-Infinity;4]"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Euo8XNXkEeeDQOkVKOMuLA"
+        name="Integers.Narrow.Int2" inUse="TRUE" alias="Integers.Narrow.Int2">
+      <domain uuid="_Euo8XdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Euo8X9XkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8YNXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="]-Infinity;9]"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Eupj4dXkEeeDQOkVKOMuLA"
+        name="Ranges.Equals.Range1" inUse="TRUE" alias="Ranges.Equals.Range1">
+      <domain uuid="_Eupj4tXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupj5NXkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupj5dXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="0"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjvtXkEeeDQOkVKOMuLA"
+        name="Ranges.Equals.Range2" inUse="TRUE" alias="Ranges.Equals.Range2">
+      <domain uuid="_Eupjv9XkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjwdXkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjwtXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="0"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjnNXkEeeDQOkVKOMuLA"
+        name="Ranges.Narrow.Range1" inUse="TRUE" alias="Ranges.Narrow.Range1">
+      <domain uuid="_EupjndXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupjn9XkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjoNXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="0"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjYdXkEeeDQOkVKOMuLA"
+        name="Ranges.Narrow.Range2" inUse="TRUE" alias="Ranges.Narrow.Range2">
+      <domain uuid="_EupjYtXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjZNXkEeeDQOkVKOMuLA" bitSet="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjZdXkEeeDQOkVKOMuLA"
+            name="" editable="false" displayName="0"/>
+      </domain>
+      <properties key="VT type" value="Int"/>
+      <properties key="Build type" value="integer"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjzdXkEeeDQOkVKOMuLA"
+        name="SideEffects.FunctionOutput" inUse="TRUE"
+        alias="SideEffects.FunctionOutput">
+      <domain uuid="_EupjztXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupj0NXkEeeDQOkVKOMuLA" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjtdXkEeeDQOkVKOMuLA"
+        name="Strings.Continuous.String1" inUse="TRUE"
+        alias="Strings.Continuous.String1">
+      <domain uuid="_EupjttXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjuNXkEeeDQOkVKOMuLA" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_Eupj1dXkEeeDQOkVKOMuLA"
+        name="Strings.Continuous.String2" inUse="TRUE"
+        alias="Strings.Continuous.String2">
+      <domain uuid="_Eupj1tXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupj2NXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupj2dXkEeeDQOkVKOMuLA"
+            name="blue" editable="false" displayName="blue"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupj2tXkEeeDQOkVKOMuLA"
+            name="green" editable="false" displayName="green"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupj29XkEeeDQOkVKOMuLA"
+            name="red" editable="false" displayName="red"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[blue, green, red]"/>
+    </currentVariables>
+    <currentVariables uuid="_Eupj0dXkEeeDQOkVKOMuLA"
+        name="Strings.Continuous.String3" inUse="TRUE"
+        alias="Strings.Continuous.String3">
+      <domain uuid="_Eupj0tXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Eupj1NXkEeeDQOkVKOMuLA" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjjtXkEeeDQOkVKOMuLA"
+        name="Strings.Equals.String1" inUse="TRUE" alias="Strings.Equals.String1">
+      <domain uuid="_Eupjj9XkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjkdXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjktXkEeeDQOkVKOMuLA"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupjk9XkEeeDQOkVKOMuLA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjlNXkEeeDQOkVKOMuLA"
+            name="str3" editable="false" displayName="str3"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjldXkEeeDQOkVKOMuLA"
+        name="Strings.Equals.String2" inUse="TRUE" alias="Strings.Equals.String2">
+      <domain uuid="_EupjltXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjmNXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjmdXkEeeDQOkVKOMuLA"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjmtXkEeeDQOkVKOMuLA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupjm9XkEeeDQOkVKOMuLA"
+            name="str3" editable="false" displayName="str3"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3]"/>
+    </currentVariables>
+    <currentVariables uuid="_EupjetXkEeeDQOkVKOMuLA"
+        name="Strings.Narrow.String1" inUse="TRUE" alias="Strings.Narrow.String1">
+      <domain uuid="_Eupje9XkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EupjfdXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_EupjftXkEeeDQOkVKOMuLA"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Eupjf9XkEeeDQOkVKOMuLA"
+            name="str2" editable="false" displayName="str2"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2]"/>
+    </currentVariables>
+    <currentVariables uuid="_Euo8ZdXkEeeDQOkVKOMuLA"
+        name="Strings.Narrow.String2" inUse="TRUE" alias="Strings.Narrow.String2">
+      <domain uuid="_Euo8ZtXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_Euo8aNXkEeeDQOkVKOMuLA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8adXkEeeDQOkVKOMuLA"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8atXkEeeDQOkVKOMuLA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8a9XkEeeDQOkVKOMuLA"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_Euo8bNXkEeeDQOkVKOMuLA"
+            name="str4" editable="false" displayName="str4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4]"/>
+    </currentVariables>
+    <currentFunctions uuid="_EvTDqNXkEeeDQOkVKOMuLA"
+        name="Floats.Functions.AddFloatVariables" inUse="TRUE"
+        alias="Floats.Functions.AddFloatVariables">
+      <domain uuid="_EvTDqdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EvTDq9XkEeeDQOkVKOMuLA" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Referenced Variables" value="[Floats.Equals.Float2, Floats.Equals.Float1]"/>
+    </currentFunctions>
+    <currentFunctions uuid="_EvTDpNXkEeeDQOkVKOMuLA"
+        name="Functions.AddFloat" inUse="NOT" alias="Functions.AddFloat">
+      <domain uuid="_EvTDpdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EvTDp9XkEeeDQOkVKOMuLA" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Referenced Variables" value="[]"/>
+    </currentFunctions>
+    <currentFunctions uuid="_EvTDrNXkEeeDQOkVKOMuLA"
+        name="Functions.ReturnsZero" inUse="TRUE" alias="Functions.ReturnsZero">
+      <domain uuid="_EvTDrdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EvTDr9XkEeeDQOkVKOMuLA" bitSet="8"/>
+      </domain>
+      <properties key="VT type" value="Float"/>
+      <properties key="Build type" value="float"/>
+      <properties key="Referenced Variables" value="[]"/>
+    </currentFunctions>
+    <currentFunctions uuid="_EvTDoNXkEeeDQOkVKOMuLA"
+        name="SideEffects.Functions.SideEffects" inUse="TRUE"
+        alias="SideEffects.Functions.SideEffects">
+      <domain uuid="_EvTDodXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EvTDo9XkEeeDQOkVKOMuLA" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Referenced Variables" value="[Custom.Cookie, Custom.Tea, SideEffects.FunctionOutput]"/>
+    </currentFunctions>
+    <currentFunctions uuid="_EvSckNXkEeeDQOkVKOMuLA"
+        name="Strings.Functions.Concat" inUse="TRUE"
+        alias="Strings.Functions.Concat">
+      <domain uuid="_EvSckdXkEeeDQOkVKOMuLA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_EvSck9XkEeeDQOkVKOMuLA" bitSet="4"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Referenced Variables" value="[Strings.Equals.String2, Strings.Equals.String1]"/>
+    </currentFunctions>
+    <languages>Danish</languages>
+    <languages>French</languages>
+  </rulesVT>
 </comp:Component>
