@@ -262,6 +262,10 @@
     <inTypeSet uuid="_GD1FeKTqEea8d6P1JTl01w" bitSet="458767"/>
     <outTypeSet uuid="_GD1FeaTqEea8d6P1JTl01w" bitSet="458767"/>
   </tables>
+  <dialogs xsi:type="gui:UnitDialog" uuid="_MORlINZ9EeeoeJROQs-lpA"
+      name="Unit_Dialog" unitId="_HuNhEa-7EeOhZfF6nj1a5w">
+    <facets xsi:type="gui:SelectedTOASFacet" uuid="_RfQ9oNZ9EeeoeJROQs-lpA"/>
+  </dialogs>
   <actiondefinitions uuid="_GD1sgKTqEea8d6P1JTl01w">
     <actionDefinitions xsi:type="gui:ItemAction" uuid="_E7b74G_0EeSb6NXyjhnDPg"
         name="ShowViewPointInit" actionValue="ViewPoint_initial"

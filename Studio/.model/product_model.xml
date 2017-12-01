@@ -135,6 +135,25 @@
     <inTypeSet uuid="_GIHvnqTqEea8d6P1JTl01w" bitSet="458767"/>
     <outTypeSet uuid="_GIHvn6TqEea8d6P1JTl01w" bitSet="458767"/>
   </tables>
+  <global2DVisuals uuid="_oPd0cNZ8EeeoeJROQs-lpA" name="GV1">
+    <twoDElement xsi:type="comp:TwoDBox" uuid="_opW7INZ8EeeoeJROQs-lpA"
+        name="Box" bgColor="N65567" color="N65572">
+      <touchsensorsPointingAtMe href="components/_aBXLoL5BEeeEQ5amaEtfYw.xml#_mYaMMNZ8EeeoeJROQs-lpA"/>
+      <touchsensorsPointingAtMe href="components/_aBXLoL5BEeeEQ5amaEtfYw.xml#_mYaMMdZ8EeeoeJROQs-lpA"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDEllipse" uuid="_o9_uYNZ8EeeoeJROQs-lpA"
+        name="Ellipse"/>
+    <twoDElement xsi:type="comp:TwoDLine" uuid="_pZ4ZINZ8EeeoeJROQs-lpA"
+        name="Line" color="N65572"/>
+  </global2DVisuals>
+  <global2DVisuals uuid="_rIa-kNZ8EeeoeJROQs-lpA" name="GV2">
+    <twoDElement xsi:type="comp:TwoDText" uuid="_sHcLkNZ8EeeoeJROQs-lpA"
+        name="Text"/>
+    <twoDElement xsi:type="comp:TwoDPolyline" uuid="_sh3dwNZ8EeeoeJROQs-lpA"
+        name="Polyline"/>
+    <twoDElement xsi:type="comp:TwoDImage" uuid="_s9AhoNZ8EeeoeJROQs-lpA"
+        name="Image"/>
+  </global2DVisuals>
   <modeldescription uuid="_GIIWoKTqEea8d6P1JTl01w" pmid="BuildModel">
     <version uuid="_GIJkwKTqEea8d6P1JTl01w" major="1"/>
   </modeldescription>

@@ -6,6 +6,10 @@
     uuid="_aBXLoL5BEeeEQ5amaEtfYw" name="C1">
   <geometry deletable="false" uuid="_aBXLob5BEeeEQ5amaEtfYw"
       name="root">
+    <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_GqvOoNZ-EeeoeJROQs-lpA"
+        name="Interactive_SVG" checksum="b599fee656bd50105b37a4c0de33b671d2e0c2ac">
+      <file href="../../model.build#_KXyIINZ-EeeoeJROQs-lpA"/>
+    </twoDElement>
     <parentPlugs uuid="_aBXLor5BEeeEQ5amaEtfYw" name="ParentPlug"/>
   </geometry>
   <roles uuid="_gGgk8L5BEeeEQ5amaEtfYw" name="Role">
@@ -17,9 +21,30 @@
           editable="false" visibility="300"/>
     </domain>
   </roles>
+  <roles deletable="false" uuid="_jI6xntZ8EeeoeJROQs-lpA"
+      name="element.1" enabled="false" editable="false"
+      initValue="NONE" components="NONE, C1, C2, justMonica,">
+    <facets xsi:type="comp:PlugFacet" uuid="_jI6xqNZ8EeeoeJROQs-lpA"/>
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_mYaMMdZ8EeeoeJROQs-lpA">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_opW7INZ8EeeoeJROQs-lpA"/>
+      <visual href="../product_model.xml#_oPd0cNZ8EeeoeJROQs-lpA"/>
+    </facets>
+    <domain uuid="_jI6xm9Z8EeeoeJROQs-lpA" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_jI6xnNZ8EeeoeJROQs-lpA" bitSet="65536"/>
+      <values uuid="_jI6xndZ8EeeoeJROQs-lpA" name="NONE"
+          editable="false" visibility="300"/>
+      <values uuid="_kJ-lwNZ8EeeoeJROQs-lpA" name="C1"
+          editable="false" visibility="300"/>
+      <values uuid="_kZmWINZ8EeeoeJROQs-lpA" name="C2"
+          editable="false" visibility="300"/>
+      <values uuid="_z2W_ENZ8EeeoeJROQs-lpA" name="justMonica"
+          editable="false" visibility="300"/>
+    </domain>
+  </roles>
   <rulesVT uuid="__9wAMNXjEeeDQOkVKOMuLA" name="VT_Rule"
       checksum="3a993008632e78fd892d70a0fbbf5734f442139a"
-      modelType="VT_Model" language="French">
+      modelType="VT_Model" language="Danish">
     <fileVT href="../../model.build#_D_APINXkEeeDQOkVKOMuLA"/>
     <properties>VT type</properties>
     <properties>Build type</properties>
@@ -33,17 +58,17 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjitXkEeeDQOkVKOMuLA" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupji9XkEeeDQOkVKOMuLA"
-            name="Almond" editable="false" displayName="Biscuit Amande">
+            name="Almond" editable="false" displayName="Mandelkiks">
           <displayNames key="Danish" value="Mandelkiks"/>
           <displayNames key="French" value="Biscuit Amande"/>
         </values>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjjNXkEeeDQOkVKOMuLA"
-            name="Oatmeal" editable="false" displayName="Biscuit Ã  l'avoine">
+            name="Oatmeal" editable="false" displayName="Havregrynskiks">
           <displayNames key="Danish" value="Havregrynskiks"/>
           <displayNames key="French" value="Biscuit Ã  l'avoine"/>
         </values>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjjdXkEeeDQOkVKOMuLA"
-            name="Chocolate Chip" editable="false" displayName="Biscuit aux pÃ©pites de chocolat">
+            name="Chocolate Chip" editable="false" displayName="Chokoladekiks">
           <displayNames key="Danish" value="Chokoladekiks"/>
           <displayNames key="French" value="Biscuit aux pÃ©pites de chocolat"/>
         </values>
@@ -63,13 +88,13 @@
           <displayNames key="French" value="Earl Grey thÃ©"/>
         </values>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8e9XkEeeDQOkVKOMuLA"
-            name="Jasmine" editable="false" displayName="ThÃ© aux Jasmine">
+            name="Jasmine" editable="false" displayName="Jasmin-thÃ©">
           <displayNames key="Danish" value="Jasmin-thÃ©"/>
           <displayNames key="French" value="ThÃ© aux Jasmine"/>
         </values>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjYNXkEeeDQOkVKOMuLA"
             name="Indian Spice Chai" editable="false"
-            displayName="Indien piment thÃ©">
+            displayName="Indisk krydder thÃ©">
           <displayNames key="Danish" value="Indisk krydder thÃ©"/>
           <displayNames key="French" value="Indien piment thÃ©"/>
         </values>
@@ -84,7 +109,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjvNXkEeeDQOkVKOMuLA" bitSet="8"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjvdXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="any floating point value"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
@@ -96,7 +121,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Eupj39XkEeeDQOkVKOMuLA" bitSet="8"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupj4NXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="any floating point value"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
@@ -108,7 +133,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Eupjg9XkEeeDQOkVKOMuLA" bitSet="8"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjhNXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="]-Infinity;5["/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
@@ -120,7 +145,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Euo8cNXkEeeDQOkVKOMuLA" bitSet="8"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8cdXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="]-Infinity;11.5["/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Float"/>
       <properties key="Build type" value="float"/>
@@ -132,7 +157,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Euo8U9XkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8VNXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="any integer value"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -144,7 +169,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_EulR89XkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EumgENXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="any integer value"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -156,7 +181,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Euo8WNXkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8WdXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="]-Infinity;4]"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -168,7 +193,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Euo8X9XkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8YNXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="]-Infinity;9]"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -180,7 +205,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Eupj5NXkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupj5dXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="0"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -192,7 +217,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjwdXkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjwtXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="0"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -204,7 +229,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_Eupjn9XkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjoNXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="0"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -216,7 +241,7 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjZNXkEeeDQOkVKOMuLA" bitSet="2"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjZdXkEeeDQOkVKOMuLA"
-            name="" editable="false" displayName="0"/>
+            name="" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="Int"/>
       <properties key="Build type" value="integer"/>
@@ -251,11 +276,11 @@
           editable="false" visibility="300">
         <typeSet uuid="_Eupj2NXkEeeDQOkVKOMuLA" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupj2dXkEeeDQOkVKOMuLA"
-            name="blue" editable="false" displayName="blue"/>
+            name="blue" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupj2tXkEeeDQOkVKOMuLA"
-            name="green" editable="false" displayName="green"/>
+            name="green" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupj29XkEeeDQOkVKOMuLA"
-            name="red" editable="false" displayName="red"/>
+            name="red" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
@@ -278,11 +303,11 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjkdXkEeeDQOkVKOMuLA" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjktXkEeeDQOkVKOMuLA"
-            name="str1" editable="false" displayName="str1"/>
+            name="str1" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupjk9XkEeeDQOkVKOMuLA"
-            name="str2" editable="false" displayName="str2"/>
+            name="str2" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjlNXkEeeDQOkVKOMuLA"
-            name="str3" editable="false" displayName="str3"/>
+            name="str3" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
@@ -294,11 +319,11 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjmNXkEeeDQOkVKOMuLA" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjmdXkEeeDQOkVKOMuLA"
-            name="str1" editable="false" displayName="str1"/>
+            name="str1" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjmtXkEeeDQOkVKOMuLA"
-            name="str2" editable="false" displayName="str2"/>
+            name="str2" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupjm9XkEeeDQOkVKOMuLA"
-            name="str3" editable="false" displayName="str3"/>
+            name="str3" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
@@ -310,9 +335,9 @@
           editable="false" visibility="300">
         <typeSet uuid="_EupjfdXkEeeDQOkVKOMuLA" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_EupjftXkEeeDQOkVKOMuLA"
-            name="str1" editable="false" displayName="str1"/>
+            name="str1" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Eupjf9XkEeeDQOkVKOMuLA"
-            name="str2" editable="false" displayName="str2"/>
+            name="str2" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
@@ -324,13 +349,13 @@
           editable="false" visibility="300">
         <typeSet uuid="_Euo8aNXkEeeDQOkVKOMuLA" bitSet="4"/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8adXkEeeDQOkVKOMuLA"
-            name="str1" editable="false" displayName="str1"/>
+            name="str1" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8atXkEeeDQOkVKOMuLA"
-            name="str2" editable="false" displayName="str2"/>
+            name="str2" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8a9XkEeeDQOkVKOMuLA"
-            name="str3" editable="false" displayName="str3"/>
+            name="str3" editable="false" displayName=""/>
         <values xsi:type="appl:VTDomainValue" uuid="_Euo8bNXkEeeDQOkVKOMuLA"
-            name="str4" editable="false" displayName="str4"/>
+            name="str4" editable="false" displayName=""/>
       </domain>
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
@@ -392,4 +417,17 @@
     <languages>Danish</languages>
     <languages>French</languages>
   </rulesVT>
+  <controllers xsi:type="comp:RackController" uuid="_humvgNZ8EeeoeJROQs-lpA"
+      name="Rack_Controller" columns="1" rows="1" components="NONE, C1, C2, monica1, ">
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_mYaMMNZ8EeeoeJROQs-lpA">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_opW7INZ8EeeoeJROQs-lpA"/>
+      <visual href="../product_model.xml#_oPd0cNZ8EeeoeJROQs-lpA"/>
+    </facets>
+    <componentSizesTable uuid="_humvgdZ8EeeoeJROQs-lpA"
+        name="Init_Sizes_Table">
+      <rows uuid="_kJ1b1NZ8EeeoeJROQs-lpA" componentName="C1"/>
+      <rows uuid="_kZclIdZ8EeeoeJROQs-lpA" componentName="C2"/>
+      <rows uuid="_z2N1ItZ8EeeoeJROQs-lpA" componentName="monica1"/>
+    </componentSizesTable>
+  </controllers>
 </comp:Component>
