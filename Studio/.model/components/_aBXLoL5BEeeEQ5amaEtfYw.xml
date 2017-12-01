@@ -419,7 +419,9 @@
   </rulesVT>
   <rulesVT uuid="_irAmANZ_EeeoeJROQs-lpA" name="VT_Rule1"
       checksum="b475c036ff6f3d5becdf7181b016f1792d29fd1e"
-      modelType="VT_Model" language="None">
+      dirty="true" modelType="VT_Model" language="None">
+    <facets xsi:type="appl:MOAOMessage" uuid="_tOADoNZ_EeeoeJROQs-lpA"
+        description="File changed" severity="Error"/>
     <fileVT href="../../model.build#_h3b0ANZ_EeeoeJROQs-lpA"/>
     <properties>VT type</properties>
     <properties>Build type</properties>
