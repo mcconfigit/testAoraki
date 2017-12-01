@@ -418,15 +418,127 @@
     <languages>French</languages>
   </rulesVT>
   <rulesVT uuid="_irAmANZ_EeeoeJROQs-lpA" name="VT_Rule1"
-      checksum="b475c036ff6f3d5becdf7181b016f1792d29fd1e"
-      dirty="true" modelType="VT_Model" language="None">
-    <facets xsi:type="appl:MOAOMessage" uuid="_tOADoNZ_EeeoeJROQs-lpA"
-        description="File changed" severity="Error"/>
+      checksum="95cf3a79f56dac3e8d36cdb1d270db7aae192802"
+      modelType="VT_Model" language="None">
     <fileVT href="../../model.build#_h3b0ANZ_EeeoeJROQs-lpA"/>
     <properties>VT type</properties>
     <properties>Build type</properties>
     <properties>Domain</properties>
-    <currentVariables uuid="_jBVbd9Z_EeeoeJROQs-lpA"
+    <currentVariables uuid="_V5dw3taAEeeoeJROQs-lpA"
+        name="boolVar1" inUse="TRUE" alias="boolVar1">
+      <domain uuid="_V5dw39aAEeeoeJROQs-lpA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_V5dw4daAEeeoeJROQs-lpA" bitSet="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw4taAEeeoeJROQs-lpA"
+            name="" editable="false" displayName="False"/>
+      </domain>
+      <properties key="VT type" value="Bool"/>
+      <properties key="Build type" value="boolean"/>
+      <properties key="Domain" value="[]"/>
+    </currentVariables>
+    <currentVariables uuid="_V5dw1daAEeeoeJROQs-lpA"
+        name="setFromStringVar1" inUse="TRUE" alias="setFromStringVar1">
+      <domain uuid="_V5dw1taAEeeoeJROQs-lpA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_V5dw2NaAEeeoeJROQs-lpA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw2daAEeeoeJROQs-lpA"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw2taAEeeoeJROQs-lpA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw29aAEeeoeJROQs-lpA"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw3NaAEeeoeJROQs-lpA"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw3daAEeeoeJROQs-lpA"
+            name="str5" editable="false" displayName="str5"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4, str5]"/>
+    </currentVariables>
+    <currentVariables uuid="_V5dwudaAEeeoeJROQs-lpA"
+        name="setFromStringVar2" inUse="TRUE" alias="setFromStringVar2">
+      <domain uuid="_V5dwutaAEeeoeJROQs-lpA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_V5dwvNaAEeeoeJROQs-lpA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwvdaAEeeoeJROQs-lpA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwvtaAEeeoeJROQs-lpA"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwv9aAEeeoeJROQs-lpA"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwwNaAEeeoeJROQs-lpA"
+            name="str5" editable="false" displayName="str5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwwdaAEeeoeJROQs-lpA"
+            name="str6" editable="false" displayName="str6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <currentVariables uuid="_V5dwwtaAEeeoeJROQs-lpA"
+        name="stringCont" inUse="TRUE" alias="stringCont">
+      <domain uuid="_V5dww9aAEeeoeJROQs-lpA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_V5dwxdaAEeeoeJROQs-lpA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwxtaAEeeoeJROQs-lpA"
+            name="1" editable="false" displayName="1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwx9aAEeeoeJROQs-lpA"
+            name="2" editable="false" displayName="2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwyNaAEeeoeJROQs-lpA"
+            name="3" editable="false" displayName="3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwydaAEeeoeJROQs-lpA"
+            name="4" editable="false" displayName="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwytaAEeeoeJROQs-lpA"
+            name="5" editable="false" displayName="5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwy9aAEeeoeJROQs-lpA"
+            name="6" editable="false" displayName="6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[1, 2, 3, 4, 5, 6]"/>
+    </currentVariables>
+    <currentVariables uuid="_V5dwzNaAEeeoeJROQs-lpA"
+        name="stringVar1" inUse="TRUE" alias="stringVar1">
+      <domain uuid="_V5dwzdaAEeeoeJROQs-lpA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_V5dwz9aAEeeoeJROQs-lpA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw0NaAEeeoeJROQs-lpA"
+            name="str1" editable="false" displayName="str1"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw0daAEeeoeJROQs-lpA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw0taAEeeoeJROQs-lpA"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw09aAEeeoeJROQs-lpA"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dw1NaAEeeoeJROQs-lpA"
+            name="str5" editable="false" displayName="str5"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str1, str2, str3, str4, str5]"/>
+    </currentVariables>
+    <currentVariables uuid="_V5dwsNaAEeeoeJROQs-lpA"
+        name="stringVar2" inUse="TRUE" alias="stringVar2">
+      <domain uuid="_V5dwsdaAEeeoeJROQs-lpA" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_V5dws9aAEeeoeJROQs-lpA" bitSet="4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwtNaAEeeoeJROQs-lpA"
+            name="str2" editable="false" displayName="str2"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwtdaAEeeoeJROQs-lpA"
+            name="str3" editable="false" displayName="str3"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwttaAEeeoeJROQs-lpA"
+            name="str4" editable="false" displayName="str4"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwt9aAEeeoeJROQs-lpA"
+            name="str5" editable="false" displayName="str5"/>
+        <values xsi:type="appl:VTDomainValue" uuid="_V5dwuNaAEeeoeJROQs-lpA"
+            name="str6" editable="false" displayName="str6"/>
+      </domain>
+      <properties key="VT type" value="String"/>
+      <properties key="Build type" value="string"/>
+      <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
+    </currentVariables>
+    <previousVariables uuid="_jBVbd9Z_EeeoeJROQs-lpA"
         name="boolVar1" inUse="TRUE" alias="boolVar1">
       <domain uuid="_jBVbeNZ_EeeoeJROQs-lpA" name="local"
           editable="false" visibility="300">
@@ -437,8 +549,8 @@
       <properties key="VT type" value="Bool"/>
       <properties key="Build type" value="boolean"/>
       <properties key="Domain" value="[]"/>
-    </currentVariables>
-    <currentVariables uuid="_jBVbb9Z_EeeoeJROQs-lpA"
+    </previousVariables>
+    <previousVariables uuid="_jBVbb9Z_EeeoeJROQs-lpA"
         name="setFromStringVar1" inUse="TRUE" alias="setFromStringVar1">
       <domain uuid="_jBVbcNZ_EeeoeJROQs-lpA" name="local"
           editable="false" visibility="300">
@@ -455,8 +567,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str1, str2, str3, str4]"/>
-    </currentVariables>
-    <currentVariables uuid="_jBVbVNZ_EeeoeJROQs-lpA"
+    </previousVariables>
+    <previousVariables uuid="_jBVbVNZ_EeeoeJROQs-lpA"
         name="setFromStringVar2" inUse="TRUE" alias="setFromStringVar2">
       <domain uuid="_jBVbVdZ_EeeoeJROQs-lpA" name="local"
           editable="false" visibility="300">
@@ -475,8 +587,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
-    </currentVariables>
-    <currentVariables uuid="_jBVbXdZ_EeeoeJROQs-lpA"
+    </previousVariables>
+    <previousVariables uuid="_jBVbXdZ_EeeoeJROQs-lpA"
         name="stringCont" inUse="TRUE" alias="stringCont">
       <domain uuid="_jBVbXtZ_EeeoeJROQs-lpA" name="local"
           editable="false" visibility="300">
@@ -497,8 +609,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[1, 2, 3, 4, 5, 6]"/>
-    </currentVariables>
-    <currentVariables uuid="_jBVbZ9Z_EeeoeJROQs-lpA"
+    </previousVariables>
+    <previousVariables uuid="_jBVbZ9Z_EeeoeJROQs-lpA"
         name="stringVar1" inUse="TRUE" alias="stringVar1">
       <domain uuid="_jBVbaNZ_EeeoeJROQs-lpA" name="local"
           editable="false" visibility="300">
@@ -515,8 +627,8 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str1, str2, str3, str4]"/>
-    </currentVariables>
-    <currentVariables uuid="_jBMRYNZ_EeeoeJROQs-lpA"
+    </previousVariables>
+    <previousVariables uuid="_jBMRYNZ_EeeoeJROQs-lpA"
         name="stringVar2" inUse="TRUE" alias="stringVar2">
       <domain uuid="_jBMRYdZ_EeeoeJROQs-lpA" name="local"
           editable="false" visibility="300">
@@ -535,7 +647,7 @@
       <properties key="VT type" value="String"/>
       <properties key="Build type" value="string"/>
       <properties key="Domain" value="[str2, str3, str4, str5, str6]"/>
-    </currentVariables>
+    </previousVariables>
   </rulesVT>
   <controllers xsi:type="comp:RackController" uuid="_humvgNZ8EeeoeJROQs-lpA"
       name="Rack_Controller" columns="1" rows="1" components="NONE, C1, C2, monica1, ">
