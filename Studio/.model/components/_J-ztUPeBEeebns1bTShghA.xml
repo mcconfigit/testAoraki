@@ -10,6 +10,7 @@
         name="Table_Relation" visibility="800">
       <columns uuid="_RHXEYPeBEeebns1bTShghA" name="size"
           visibility="100">
+        <cells>XS</cells>
         <cells>S</cells>
         <cells>M</cells>
         <cells>L&#xD;</cells>
@@ -17,9 +18,10 @@
       </columns>
       <columns uuid="_RhFL8PeBEeebns1bTShghA" name="color"
           visibility="100">
+        <cells>black</cells>
         <cells>red</cells>
         <cells>red,green</cells>
-        <cells>red,green,blue</cells>
+        <cells>red,green</cells>
         <cells>black</cells>
       </columns>
     </children>
