@@ -20,8 +20,8 @@
           visibility="100">
         <cells>black</cells>
         <cells>red</cells>
-        <cells>red,green</cells>
-        <cells>red,green</cells>
+        <cells>'red','green'</cells>
+        <cells>'red','green&#xD;'&#xD;</cells>
         <cells>black</cells>
       </columns>
     </children>
