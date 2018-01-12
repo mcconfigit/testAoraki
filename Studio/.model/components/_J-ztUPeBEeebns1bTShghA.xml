@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_J-ztUPeBEeebns1bTShghA" name="testLogicComponent">
+  <logic uuid="_MJFMgPeBEeebns1bTShghA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_MniDEPeBEeebns1bTShghA"
+        name="Table_Relation" visibility="800">
+      <columns uuid="_RHXEYPeBEeebns1bTShghA" name="size"
+          visibility="100">
+        <cells>S</cells>
+        <cells>M</cells>
+        <cells>L&#xD;</cells>
+        <cells>XL</cells>
+      </columns>
+      <columns uuid="_RhFL8PeBEeebns1bTShghA" name="color"
+          visibility="100">
+        <cells>red</cells>
+        <cells>red,green</cells>
+        <cells>red,green,blue</cells>
+        <cells>black</cells>
+      </columns>
+    </children>
+  </logic>
+  <geometry deletable="false" uuid="_J-ztUfeBEeebns1bTShghA"
+      name="root">
+    <parentPlugs uuid="_J-ztUveBEeebns1bTShghA" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

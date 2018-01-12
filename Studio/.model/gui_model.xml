@@ -11,9 +11,9 @@
     <fontStyles uuid="_ndmlIGpyEeSfCJnJCtaXOA" name="DefaultFontStyleTabSub"
         bold="true" color="128,128,128" size="13"/>
     <fontStyles uuid="_9Tzp4G_4EeSb6NXyjhnDPg" name="DefaultFontStyleValue"
-        color="0,0,0" size="12"/>
+        size="12"/>
     <fontStyles uuid="__Rrr0G_4EeSb6NXyjhnDPg" name="DefaultFontStyleLabel"
-        color="0,0,0" size="12"/>
+        size="12"/>
     <fontStyles uuid="_3o-awHAIEeSePcy3DK4xYQ" name="DefaultFontStyleH1"
         bold="true" color="0,32,91" size="14"/>
     <imageStyles uuid="_ySA6gEljEeSsxfjC0m3AcA" name="DefaultLogo">
@@ -54,14 +54,13 @@
       <bgImage href="../model.build#_8uEBgGqzEeSf2roTWK8_Lg"/>
     </panelStyles>
     <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_Bj_OoGq0EeSf2roTWK8_Lg"
-        name="DefaultFlowPanelStyleSettings" bgColor="255,255,255"
-        columnSpacing="30" rowSpace="8">
+        name="DefaultFlowPanelStyleSettings" columnSpacing="30"
+        rowSpace="8">
       <bgImage href="../model.build#_skYBIGqzEeSf2roTWK8_Lg"/>
       <margins uuid="_q8kQINOYEee3G7JxPZMeKA" top="20"
           bottom="15" left="20"/>
     </panelStyles>
-    <panelStyles uuid="_6uuVEGq1EeSU5fRCDlCvNA" name="DefaultXYPanelStyleToolBar"
-        bgColor="255,255,255">
+    <panelStyles uuid="_6uuVEGq1EeSU5fRCDlCvNA" name="DefaultXYPanelStyleToolBar">
       <bgImage href="../model.build#_OpnWMGq2EeSU5fRCDlCvNA"/>
     </panelStyles>
     <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_-kp9EFc_EeWo-40Qyxiobw"
